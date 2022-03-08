@@ -42,11 +42,11 @@
   max-width: max-content;
   padding: 12px 24px;
   border-radius: 2px;
-  background: linear-gradient(to right, #04FF6E, #0b9946);
+  background: linear-gradient(to right, #04FF6E, #13a34f);
 }
 
 .main-conteudo a:hover{
-  background: linear-gradient(to right, #04ff6dd7, #047533);
+  background: linear-gradient(to right, #04ff6dd7, #10a54e);
 }
 
 @media (max-width:900px){

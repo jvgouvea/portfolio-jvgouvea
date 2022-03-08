@@ -4,28 +4,25 @@
 }
 
 .sobre p{
-  max-width: 40ch;
+  max-width: 42ch;
   margin-bottom: 20px;
 } 
 
 .sobre-grid{
   display: grid;
-  align-items: flex-end;
+  align-items: center;
   justify-content: space-between;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 60px;
 }
 
 .sobre-grid img{
   margin: auto;
 }
 
-@media (max-width:800px){
-
+@media (max-width:1000px){
   .sobre-grid {
     grid-template-columns: 1fr;
     justify-items: center;
   }
 }
-
-
