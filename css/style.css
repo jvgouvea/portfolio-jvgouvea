@@ -1,0 +1,12 @@
+/* Global */
+@import "/css/global/global.css";
+@import "/css/global/reset.css";
+@import "/css/global/cores.css";
+@import "/css/global/tipografia.css";
+
+/* Conteudo */
+@import "/css/style/header.css";
+@import "/css/style/main.css";
+@import "/css/style/sobre.css";
+@import "/css/style/skills.css";
+@import "/css/style/projetos.css";

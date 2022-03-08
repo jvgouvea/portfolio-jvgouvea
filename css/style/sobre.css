@@ -1,0 +1,31 @@
+.sobre h2{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sobre p{
+  max-width: 40ch;
+  margin-bottom: 20px;
+} 
+
+.sobre-grid{
+  display: grid;
+  align-items: flex-end;
+  justify-content: space-between;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.sobre-grid img{
+  margin: auto;
+}
+
+@media (max-width:800px){
+
+  .sobre-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+
