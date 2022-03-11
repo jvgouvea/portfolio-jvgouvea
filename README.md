@@ -10,6 +10,7 @@ Página desenvolvida com o objetivo de criar um portfólio para divulgar meus pr
 
 * HTML
 * CSS
+* JavaScript
 * VS Code
 * Figma
 

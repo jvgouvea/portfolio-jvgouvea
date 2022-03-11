@@ -12,6 +12,7 @@
   <link rel="shortcut icon" href="img/icones/favicon.svg" type="image/x-icon">
   <link rel="stylesheet" href="/css/style.css">
   <title>Gouvêa - Desenvolvedor Front-End</title>
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -28,11 +29,11 @@
 
   <main class="container main">
     <div class="main-conteudo">
-      <h1 class="font-1-gg-b cor-0">João Victor</h1>
-      <span class="font-1-mm-m cor-2">Desenvolvedor Front-End </span>
-      <a class="font-1-m-m cor-5 botao" target="_blank" href="https://www.linkedin.com/in/jvgouvea/">LinkedIn</a>
+      <h1 class="font-1-gg-b cor-0 fadeInDown" data-anime="200">João Victor</h1>
+      <span class="font-1-mm-m cor-2 fadeInDown" data-anime="400">Desenvolvedor Front-End </span>
+      <a class="font-1-m-m cor-5 botao fadeInDown" data-anime="600" target="_blank" href="https://www.linkedin.com/in/jvgouvea/">LinkedIn</a>
     </div>
-    <div class="main-img">
+    <div class="main-img fadeInDown" data-anime="800">
       <img src="img/imgheader.svg" width="500" height="500" alt="">
     </div>
   </main>
@@ -153,5 +154,7 @@
     </div>
   </footer>
 
+  <script src="js/plugins/simple-anime.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

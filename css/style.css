@@ -3,6 +3,7 @@
 @import "/css/global/reset.css";
 @import "/css/global/cores.css";
 @import "/css/global/tipografia.css";
+@import "/css/global/plugin.css";
 
 /* Conteudo */
 @import "/css/style/header.css";

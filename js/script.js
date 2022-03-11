@@ -1,0 +1,3 @@
+//Animação plugin
+
+new SimpleAnime();
