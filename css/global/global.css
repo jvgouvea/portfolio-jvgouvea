@@ -20,6 +20,12 @@ body::-webkit-scrollbar-thumb {
   border: none;
 }
 
+.gotop{
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+}
+
 .container{
   max-width: 1200px;
   margin-right: auto;
