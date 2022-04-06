@@ -4,6 +4,7 @@
 @import "/css/global/cores.css";
 @import "/css/global/tipografia.css";
 @import "/css/global/plugin.css";
+@import "/css/global/tooltip.css";
 
 /* Conteudo */
 @import "/css/style/header.css";
