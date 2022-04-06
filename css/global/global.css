@@ -21,9 +21,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 .gotop{
+  display: none;
   position: fixed;
   bottom: 32px;
   right: 32px;
+}
+
+.gotop.ativo{
+  display: block;
+  animation: gotop 0.5s forwards ;
 }
 
 .container{
@@ -42,4 +48,14 @@ body::-webkit-scrollbar-thumb {
     padding-bottom: 40px;
     padding-top:40px;
 }
+}
+
+@keyframes gotop{
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
 }
